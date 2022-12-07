@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ff00ff;
+}
+h1 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  color: #ffff00;
+  text-align: center;
+}
+p {
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+  color: #ff00ff;
+  text-align: center;
+}
+strong {
+  color: #00ff00;
+}
+em {
+  font-style: italic;
+  color: #ffff00;
+}
