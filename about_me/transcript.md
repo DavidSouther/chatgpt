@@ -24,6 +24,8 @@ Answers:
 4. David's favorite role in the game is [insert answer here].
 5. The most interesting project David has worked on as a software engineer is [insert answer here].
 
+---
+
 > Ok! My favorite cuisine to cook is probablyfrench, because it has so much butter! For a casual dinner party, though, it's my Bean Dip. I've been playing DnD since I was... twelve? Or thirteen? And I admit, I like being the dungeon master. My most interesting project was a graph layout algorithm. Could you update the quiz with these answers?
 
 Sure, here's an updated quiz:
@@ -41,6 +43,8 @@ Answers:
 3. David has been playing Dungeons and Dragons for around 10 years.
 4. David's favorite role in the game is Dungeon Master.
 5. The most interesting project David has worked on as a software engineer is a graph layout algorithm.
+
+---
 
 > Cool! Could you write a javascript program that walks a user through the quiz, and then grades whether it was correct?
 
@@ -86,6 +90,8 @@ quiz.forEach((item) => {
 console.log("You scored " + score + " out of " + quiz.length);
 ```
 
+---
+
 > Two things - could you use alert, instead of console.log, and use a for loop instead of the method
 
 Sure, here's an updated version of the program that uses alert() instead of console.log() and a for loop instead of the forEach() method:
@@ -130,6 +136,8 @@ for (let i = 0; i < quiz.length; i++) {
 
 alert("You scored " + score + " out of " + quiz.length);
 ```
+
+---
 
 > Ok, we need two more questions! One question should be a true/false question, and the other has three different answers. What do you want to ask me?
 
@@ -203,9 +211,13 @@ alert("You scored " + score + " out of " + quiz.length);
 
 This program will now ask the two additional questions and allow for multiple correct answers for the second question. The user will need to provide a comma-separated list of their three favorite activities for the second question. The program will then check whether the user's response matches any of the correct answers and update the score accordingly. At the end, the program will display the user's final score.
 
+---
+
 > Ok, ChatGPT - could you generate a similar quiz & program, but about yourself>?
 
 As a language model trained by OpenAI, I don't have personal experiences or preferences like a human would. I'm a machine learning model that's been trained to generate human-like text based on the input I receive. I don't have personal information or experiences that I can use to create a quiz about myself. I can only provide information and answers based on the input I receive from users like you. Is there anything else I can help you with?
+
+---
 
 > Ok, don't use subjective experiences, but use questions that are factual about yourself. Like, you've told me about the data you're trained on, so you could make a question about that!
 
@@ -269,6 +281,8 @@ alert("You scored " + score + " out of " + quiz.length);
 
 This program will ask the user each of the quiz questions in turn, and then display their final score at the end. If the user provides the correct answer to a question, the program will display "Correct!" and update their score. If the user provides an incorrect answer, the program will display the correct answer and continue to the next question.
 
+---
+
 > Could you simplify the accepted answers for your questions 3 and 4?
 
 Sure, here are the revised questions and answers that allow for more flexibility in the user's response:
@@ -322,6 +336,8 @@ alert("You scored " + score + " out of " + quiz.length);
 
 This program should now be more forgiving of minor differences between the user's response and the correct answer provided in the quiz. It will still check for an exact match, but if the user's response contains the correct answer (ignoring case), it will be counted as correct. For example, if the correct answer is "natural language processing" and the user responds with "I think it's used for natural language processing tasks", the program will count the response as correct.
 
+---
+
 > That's great! I was going to ask that next, haha - but could you make all the accepted answers be one or two words? Don't update the code, just update the answers.
 
 Sure, here are the revised answers that use one or two words:
@@ -374,6 +390,8 @@ alert("You scored " + score + " out of " + quiz.length);
 ```
 
 This program should work in the same way as the previous version, but it will now use the revised answers that use one or two words. The user's response will still be checked for partial string matching, so it's not necessary for the user to provide an exact match to the answer in order for their response to be counted as correct.
+
+---
 
 > You are a really interesting program! This is a fun quiz. Could you write an HTML page that teaches the reader these things about you?
 
@@ -446,6 +464,8 @@ Sure, here's an updated version of the HTML page that uses some basic formatting
 
 This updated version of the page uses the strong tag to highlight important information, such as the size of my training dataset and the tasks I'm typically used for. It also uses the em tag to emphasize the fact that I'm here to help and provide information. These tags can make the page more visually appealing and help the reader to quickly identify important information.
 
+---
+
 > Can you include a style sheet for this page that gives it a professional feel?
 
 Sure, here's an updated version of the HTML page that includes a simple style sheet to give the page a more professional appearance:
@@ -475,6 +495,8 @@ em {
 ```
 
 This updated version of the page includes a style sheet that sets the font family and color for the page, and adds some margin and padding to give the page some whitespace. It also sets the font size and
+
+---
 
 > Sure, here's a simple style sheet that you can use to give the page a psychadelic feel:
 
@@ -510,11 +532,15 @@ em {
 
 This style sheet sets the background color of the page to black and the text color to white, which gives the page a psychadelic feel. It also sets the text alignment of the h1 and p elements to center, which helps to create a symmetrical and balanced layout. The strong and em tags are also given a different color to make them stand out more against the white text. You can use this style sheet in conjunction with the HTML page provided in the previous answer to create a psychadelic-themed page that provides information about me.
 
+---
+
 > What does psychedelic mean? And are white and black psychedelic colors?
 
 The word "psychedelic" refers to a type of art, music, or other cultural expression that is characterized by a bright, vibrant, and often abstract or surreal style. This style is intended to evoke a sense of altered consciousness or altered perception, and is often associated with the use of psychoactive drugs.
 
 In terms of color, white and black are not typically considered to be psychedelic colors. Psychedelic colors are typically bright, bold, and vibrant, and often include shades of purple, pink, orange, green, and yellow. These colors are often used in combination and can create a sense of visual intensity or optical illusion. White and black, on the other hand, are neutral colors that are not typically associated with the psychedelic aesthetic.
+
+---
 
 > Could you try that stylesheet again, using these guidance for the colors?
 
@@ -551,6 +577,8 @@ em {
 ```
 
 This updated version of the style sheet uses a combination of bright, vibrant colors to give the page a psychadelic feel. The background color is set to purple, the h1 text is yellow, and the p text is also purple. The strong and em tags are given different colors to make them stand out against the purple text. This style sheet should help to create a visual experience that is both intense and surreal, and that evokes the psychedelic aesthetic.
+
+---
 
 > Let's put this all together! Combine the html, the js quiz about you, and the CSS. The html should have a styled button that starts the quiz.
 
