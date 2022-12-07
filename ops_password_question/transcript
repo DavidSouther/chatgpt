@@ -1,0 +1,31 @@
+# Session 1
+
+> Which of the following does the NIST recommend for effectively securing user passwords?
+> A. Minimum length requirements
+> B. Complexity requirements
+> C. Salting the passwords
+> D. Hashing the passwords
+> E. Encrypting the passwords
+
+The NIST recommends hashing passwords as one of the most effective ways to secure them. This involves using a cryptographic hash function to transform the password into a fixed-length string of characters, known as the hash value. This makes it much more difficult for an attacker to obtain the original password if they gain access to the hashed version. Additionally, the NIST recommends using a "salt" value, which is a random string of characters added to the password before it is hashed, to further increase the security of the password. So the correct answer is D and C.
+
+---
+
+> I agree with C and D, but are either of A or B preferred>
+
+While it is generally a good idea to use long and complex passwords to make them more difficult to guess, the NIST does not specifically recommend minimum length or complexity requirements. Instead, they recommend using a password manager to generate and store long, random, and unique passwords for each account. This makes it unnecessary for users to remember complex passwords, and also ensures that the passwords are not easily guessable.
+
+---
+
+---
+
+# Session 2
+
+> Which of the following best practices would most effectively secure user passwords?
+>
+> A. Minimum length requirements, and salting to avoid rainbow table attacks.
+> B. Complexity requirements, and salting to avoid rainbow table attacks.
+> C. Complexity requirements, and encryption to avoid rainbow table attacks.
+> D. Minimum length requirements, and hashing to avoid rainbow table attacks.
+
+The best practice for securing user passwords is to use a combination of minimum length requirements, complexity requirements, and hashing. This can help to protect against rainbow table attacks and other forms of password cracking. Salting can also be used to further enhance security, but it is not essential in all cases. Encryption is not typically used for password storage, as it can introduce additional vulnerabilities and complexity.
