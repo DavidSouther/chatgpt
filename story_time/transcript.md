@@ -35,6 +35,8 @@ We’ll deliver on our promises
 And make our customers number one
 ```
 
+---
+
 > (Steve Meyers) write a song about agile sprint story time and existential angst in style of Taylor Swift and
 
 ```text
@@ -77,4 +79,50 @@ In the end, we keep moving forward
 Towards the finish line and the end goal
 But the questions linger on
 In this agile sprint story time.
+```
+
+---
+
+> (Steve Meyers) write a song about agile sprint story time and existential angst in style of Taylor Swift adding time and key signatures
+
+```
+Verse 1:
+In the chaos of the agile sprint (Am)
+Feeling lost and unsure (G)
+But we push on with a purpose and a plan (F)
+To build and create, and make it all work (Am)
+Chorus:
+It’s agile sprint story time (G)
+Where the code and the stories flow (F)
+But in the midst of it all (Am)
+Existential angst begins to grow (G)
+Verse 2:
+What is the point of it all (F)
+In this never-ending race (Am)
+To build and deploy, to test and refine (G)
+Is it worth the struggle and the pain (F)
+Chorus:
+It’s agile sprint story time (G)
+Where the code and the stories flow (F)
+But in the midst of it all (Am)
+Existential angst begins to grow (G)
+Bridge:
+We keep pushing forward (F)
+With our heads down and our eyes fixed (Am)
+On the goal and the end result (G)
+But sometimes we can’t help but ask (F)
+Is this all there is (Am)
+In this endless cycle of build and release (G)
+Are we just spinning our wheels (F)
+In this never-ending agile sprint story time (Am)
+Chorus:
+It’s agile sprint story time (G)
+Where the code and the stories flow (F)
+But in the midst of it all (Am)
+Existential angst begins to grow (G)
+Outro:
+In the end, we keep moving forward (F)
+Towards the finish line and the end goal (Am)
+But the questions linger on (G)
+In this agile sprint story time. (F)
 ```
