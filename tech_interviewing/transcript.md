@@ -146,17 +146,6 @@ Here is an example of an SVG file that visualizes a linked list with four nodes:
 </svg>
 ```
 
-<svg width="200" height="100">
-  <rect x="10" y="10" width="50" height="30" fill="red" />
-  <rect x="70" y="10" width="50" height="30" fill="blue" />
-  <rect x="130" y="10" width="50" height="30" fill="green" />
-  <rect x="190" y="10" width="50" height="30" fill="yellow" />
-
-  <line x1="60" y1="25" x2="70" y2="25" stroke="black" />
-  <line x1="120" y1="25" x2="130" y2="25" stroke="black" />
-  <line x1="180" y1="25" x2="190" y2="25" stroke="black" />
-</svg>
-
 This SVG file creates four rectangular nodes, each filled with a different color (red, blue, green, and yellow). It then uses lines to connect the nodes and show the links between them. The resulting diagram looks like this:
 
 https://i.stack.imgur.com/74oib.png
@@ -185,23 +174,6 @@ Yes, it is possible to add arrow heads to the lines in the SVG diagram of a link
   </marker>
 </svg>
 ```
-
-<svg width="200" height="100">
-  <rect x="10" y="10" width="50" height="30" fill="red" />
-  <rect x="70" y="10" width="50" height="30" fill="blue" />
-  <rect x="130" y="10" width="50" height="30" fill="green" />
-  <rect x="190" y="10" width="50" height="30" fill="yellow" />
-
-  <line x1="60" y1="25" x2="70" y2="25" stroke="black" marker-end="url(#arrow)" />
-  <line x1="120" y1="25" x2="130" y2="25" stroke="black" marker-end="url(#arrow)" />
-  <line x1="180" y1="25" x2="190" y2="25" stroke="black" marker-end="url(#arrow)" />
-
-<marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5"
-          markerUnits="strokeWidth" markerWidth="8" markerHeight="6"
-          orient="auto">
-<path d="M 0 0 L 10 5 L 0 10 z" />
-</marker>
-</svg>
 
 This SVG file uses the marker-end attribute to add arrow heads to the lines that connect the nodes. The arrow heads are defined in a marker element, which specifies their shape and size. The resulting diagram looks like this:
 
@@ -360,23 +332,6 @@ To adjust the remaining circles in the example SVG file so that they maintain a 
 ```
 
 > (NB: It's missing some pieces but it got the rest right?)
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="100">
-  <circle cx="30" cy="20" r="15" fill="rgb(255,153,153)" stroke="black" />
-  <circle cx="80" cy="20" r="15" fill="rgb(153,153,255)" stroke="black" />
-  <circle cx="130" cy="20" r="15" fill="rgb(153,255,153)" stroke="black" />
-  <circle cx="180" cy="20" r="15" fill="rgb(255,255,153)" stroke="black" />
-
-  <line x1="45" y1="20" x2="95" y2="20" stroke="black" marker-end="url(#arrow)" />
-  <line x1="105" y1="20" x2="145" y2="20" stroke="black" marker-end="url(#arrow)" />
-  <line x1="155" y1="20" x2="195" y2="20" stroke="black" marker-end="url(#arrow)" />
-
-<marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5"
-          markerUnits="strokeWidth" markerWidth="8" markerHeight="6"
-          orient="auto">
-<path d="M 0 0 L 10 5 L 0 10 z" />
-</marker>
-</svg>
 
 ---
 
